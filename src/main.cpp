@@ -14,10 +14,10 @@ const char *ssid = "Wokwi-GUEST";
 const char *password = "";
 
 // MQTT
-const char *mqtt_server = "c1efe30fb5dd4bf09218916ce1e1c320.s1.eu.hivemq.cloud";
+const char *mqtt_server = "***";
 const int mqtt_port = 8883;
-const char *mqtt_username = "lhphuong19";
-const char *mqtt_password = "Phuong1910";
+const char *mqtt_username = "***";
+const char *mqtt_password = "***";
 
 WiFiClientSecure espClient;
 PubSubClient client(espClient);
